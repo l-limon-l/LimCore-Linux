@@ -1,23 +1,23 @@
 {
-  "version": "2.5.2",
+  "version": "2.5.3",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Приложение предлагает обновить службу LimCore, если она устарела.",
-    "en": "- The app offers to update the LimCore service when it is outdated."
+    "ru": "- Предупреждение, если при подключении работает zapret, GoodbyeDPI или WinDivert: они ломают VPN. Кнопка «Остановить» в приложении и в плагине Decky.",
+    "en": "- Warning when zapret, GoodbyeDPI or WinDivert runs while connected: they break the VPN. Stop button in the app and the Decky plugin."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
-  "size": 75553272,
-  "sha256": "8672cd94bbdd75c381ea0570ac8d45d0a4a5d858e129cefcc45be37ad562978c",
+  "size": 75565560,
+  "sha256": "7ada2cca0f3fb1ffdaefe566b36a94eb8b130a11fe2b38f216a73d6705f9b2aa",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71318140,
-      "sha256": "17064b7ae6af8e3581bfc4597032b6a0d0dcbf9516f51fb35c4a71e402cb0e92"
+      "size": 71329200,
+      "sha256": "74cb4270d946c79b96d7d461ec1c3cb34c9a88f195e9f42802840ca2d3125be5"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71558792,
-      "sha256": "ceacc12ef5732ba6ee3dcda2f39b503842aa9678c52fd7231ed2aa3ed5e3b8d2"
+      "size": 71569888,
+      "sha256": "1dfd9d2ee7be52ea4bffcc24eb372f8b2e84095f928b4cb2de41040f4cc04bb2"
     }
   }
 }
