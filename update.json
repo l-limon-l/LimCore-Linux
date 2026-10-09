@@ -1,23 +1,23 @@
 {
-  "version": "2.5.7",
+  "version": "2.5.8",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Добавлен переключатель системной рамки окна в настройках интерфейса.",
-    "en": "- Added a switch for the system window frame in the interface settings."
+    "ru": "Исправлен вылет при изменении профиля маршрутизации.",
+    "en": "Fixed a crash when editing a routing profile."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
   "size": 75565560,
-  "sha256": "31c76c8fecb768a266bc8a553818560eec1b2cedf40e93ce6fe17b7516193443",
+  "sha256": "3a40a5226a46794782d73d6891e9a6ebff45efc7e991b6337a6baec0eea1281b",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71332328,
-      "sha256": "fdc2da48882836b2e80a1c58e4f2d7248724de1b39460eb0c96b92da749a4271"
+      "size": 71332200,
+      "sha256": "dea09ffa4cc3d0ede05c3fd4a1d1725de6467e27533c24d8efe8f652e64c28e4"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71572940,
-      "sha256": "ef20236b6d714df6b1e058c4e571f3ab2e911f9ebc924c8d7b1a260d1d9f396b"
+      "size": 71572712,
+      "sha256": "b62930f12266b6de4e8d64bce946a31443dfea3f2da12aca7962a69162714962"
     }
   }
 }
