@@ -1,23 +1,23 @@
 {
-  "version": "2.5.4",
+  "version": "2.5.5",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Окно «Обнаружено конфликтующее ПО» при подключении: zapret, ByeDPI или SpoofDPI выгружаются одной кнопкой.",
-    "en": "- \"Conflicting software detected\" window on connecting: zapret, ByeDPI or SpoofDPI are unloaded with one button."
+    "ru": "- Конфликтующее ПО проверяется и при открытии приложения.",
+    "en": "- Conflicting software is also checked when the app opens."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
   "size": 75565560,
-  "sha256": "244b3fae2bb47e06ab1d2849c4594551c1d2133a5dd1f3574c1221d47ca1c6bf",
+  "sha256": "c3bedefa700fe549419ff86f791a4faaf8e9c1f8b46e47289cde0e832ed607c4",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71331598,
-      "sha256": "9ae75d6b9404a039f34173db28d0a2be9896a33506bf457696975630c7019f3f"
+      "size": 71331456,
+      "sha256": "315ea12ced1258cd64c6b725b8ceebecbf9c23842ac4ed90b3a9526ccfc8d5c9"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71572188,
-      "sha256": "f25ef1e5f475eb854a993b155ffc3a1c23b3a796cafea7ce3913a97fec09b3dc"
+      "size": 71572000,
+      "sha256": "a680a9f94faa794f84a46ab5f9b271d54e9952f577b877ccd572a34e9f7ef6e3"
     }
   }
 }
