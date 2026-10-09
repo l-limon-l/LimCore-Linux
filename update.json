@@ -1,23 +1,23 @@
 {
-  "version": "2.5.5",
+  "version": "2.5.6",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Конфликтующее ПО проверяется и при открытии приложения.",
-    "en": "- Conflicting software is also checked when the app opens."
+    "ru": "- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.\n- Исправлено автопереключение серверов в балансерах.",
+    "en": "- Fixed the delay test for servers that do not open the test site.\n- Fixed automatic server switching in balancers."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
-  "size": 75565560,
-  "sha256": "c3bedefa700fe549419ff86f791a4faaf8e9c1f8b46e47289cde0e832ed607c4",
+  "size": 75561464,
+  "sha256": "faa20dd7c4e522e465034eee7cca41ff2800a3b04ffb67a359ee978aab55e1cc",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71331456,
-      "sha256": "315ea12ced1258cd64c6b725b8ceebecbf9c23842ac4ed90b3a9526ccfc8d5c9"
+      "size": 71331750,
+      "sha256": "13aa8c438351d9fcc69d730536efcc690f01e46f046458968db87766c0930e71"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71572000,
-      "sha256": "a680a9f94faa794f84a46ab5f9b271d54e9952f577b877ccd572a34e9f7ef6e3"
+      "size": 71572280,
+      "sha256": "a67424c4df5c725e08d477b69898706068ebb7b553eeef85174b1c1247fd01d9"
     }
   }
 }
