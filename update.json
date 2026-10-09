@@ -1,23 +1,23 @@
 {
-  "version": "2.5.0",
+  "version": "2.5.1",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Плагин для Decky Loader: VPN в меню быстрого доступа в игровом режиме Steam Deck — включение, сервер, задержка, скорость.\n- VPN теперь выключается вместе с приложением: служба больше не держит туннель после закрытия LimCore и не подключается сама после перезагрузки.\n- Убран ярлык в библиотеке Steam: в игровом режиме VPN управляется плагином.",
-    "en": "- Decky Loader plugin: the VPN in the Steam Deck's Quick Access menu in Game Mode — on/off, server, delay, speed.\n- The VPN now ends with the app: the service no longer keeps the tunnel after LimCore closes or reconnects by itself after a restart.\n- No more Steam library shortcut: in Game Mode the plugin controls the VPN."
+    "ru": "- Исправлена потеря интернета на Steam Deck при прямых UDP-соединениях через VPN.",
+    "en": "- Fixed internet loss on the Steam Deck with direct UDP connections through the VPN."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
-  "size": 75549176,
-  "sha256": "b9419845dafa5457bacb6dfe14744f9886b287a031901a33423d19520a960208",
+  "size": 75553272,
+  "sha256": "4d4fb3dd02b676f1e17919f439829897e8ccd6adfc7caf8566612292d68323b0",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71314100,
-      "sha256": "3aee9af96eaa187ebc3678096187146d8fafd83dc010a1920a7c29ec432ab74d"
+      "size": 71318064,
+      "sha256": "000a257f93a65bced5839e2ce55c6ee2d92946020d39e2b0694f413036eca6dc"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71554664,
-      "sha256": "b386ec6befbb10f0862392bf81ae3cbb9f4b2244a841f497b1fa990dd1a47b33"
+      "size": 71558628,
+      "sha256": "d87f87b100952df8c8813403181180fafba442113872ce02fc6ea6d5ebe4d47d"
     }
   }
 }
