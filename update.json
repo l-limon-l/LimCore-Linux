@@ -1,23 +1,23 @@
 {
-  "version": "2.5.3",
+  "version": "2.5.4",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Предупреждение, если при подключении работает zapret, GoodbyeDPI или WinDivert: они ломают VPN. Кнопка «Остановить» в приложении и в плагине Decky.",
-    "en": "- Warning when zapret, GoodbyeDPI or WinDivert runs while connected: they break the VPN. Stop button in the app and the Decky plugin."
+    "ru": "- Окно «Обнаружено конфликтующее ПО» при подключении: zapret, ByeDPI или SpoofDPI выгружаются одной кнопкой.",
+    "en": "- \"Conflicting software detected\" window on connecting: zapret, ByeDPI or SpoofDPI are unloaded with one button."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
   "size": 75565560,
-  "sha256": "7ada2cca0f3fb1ffdaefe566b36a94eb8b130a11fe2b38f216a73d6705f9b2aa",
+  "sha256": "244b3fae2bb47e06ab1d2849c4594551c1d2133a5dd1f3574c1221d47ca1c6bf",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71329200,
-      "sha256": "74cb4270d946c79b96d7d461ec1c3cb34c9a88f195e9f42802840ca2d3125be5"
+      "size": 71331598,
+      "sha256": "9ae75d6b9404a039f34173db28d0a2be9896a33506bf457696975630c7019f3f"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71569888,
-      "sha256": "1dfd9d2ee7be52ea4bffcc24eb372f8b2e84095f928b4cb2de41040f4cc04bb2"
+      "size": 71572188,
+      "sha256": "f25ef1e5f475eb854a993b155ffc3a1c23b3a796cafea7ce3913a97fec09b3dc"
     }
   }
 }
