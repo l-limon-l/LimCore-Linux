@@ -1,23 +1,23 @@
 {
-  "version": "2.5.6",
+  "version": "2.5.7",
   "date": "2026-10-09",
   "notes": {
-    "ru": "- Исправлена проверка задержки для серверов, которые не открывают сайт проверки.\n- Исправлено автопереключение серверов в балансерах.",
-    "en": "- Fixed the delay test for servers that do not open the test site.\n- Fixed automatic server switching in balancers."
+    "ru": "- Добавлен переключатель системной рамки окна в настройках интерфейса.",
+    "en": "- Added a switch for the system window frame in the interface settings."
   },
   "file": "appimage/LimCore-x86_64.AppImage",
-  "size": 75561464,
-  "sha256": "faa20dd7c4e522e465034eee7cca41ff2800a3b04ffb67a359ee978aab55e1cc",
+  "size": 75565560,
+  "sha256": "31c76c8fecb768a266bc8a553818560eec1b2cedf40e93ce6fe17b7516193443",
   "packages": {
     "deb": {
       "file": "deb/LimCore-x86_64.deb",
-      "size": 71331750,
-      "sha256": "13aa8c438351d9fcc69d730536efcc690f01e46f046458968db87766c0930e71"
+      "size": 71332328,
+      "sha256": "fdc2da48882836b2e80a1c58e4f2d7248724de1b39460eb0c96b92da749a4271"
     },
     "rpm": {
       "file": "rpm/LimCore-x86_64.rpm",
-      "size": 71572280,
-      "sha256": "a67424c4df5c725e08d477b69898706068ebb7b553eeef85174b1c1247fd01d9"
+      "size": 71572940,
+      "sha256": "ef20236b6d714df6b1e058c4e571f3ab2e911f9ebc924c8d7b1a260d1d9f396b"
     }
   }
 }
