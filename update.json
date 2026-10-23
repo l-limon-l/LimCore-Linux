@@ -1,0 +1,29 @@
+{
+  "version": "2.6.16",
+  "date": "2026-10-24",
+  "notes": {
+    "ru": "- Исправлено: профиль маршрутизации с удалённым и локальным DNS мог не давать подключиться.",
+    "en": "- Fixed: a routing profile with both remote and domestic DNS could prevent connecting."
+  },
+  "file": "appimage/LimCore-x86_64.AppImage",
+  "size": 93223416,
+  "sha256": "afe1369e648d5f313de8afef3593b7ec8678e9a966c052039e4a93411d14dcb6",
+  "packages": {
+    "deb": {
+      "file": "deb/LimCore-x86_64.deb",
+      "size": 88725444,
+      "sha256": "70970fee1c589354f7d283cb03374ed675eb854d1eca57625e5bc5a88760e11b"
+    },
+    "rpm": {
+      "file": "rpm/LimCore-x86_64.rpm",
+      "size": 88963372,
+      "sha256": "b0ecd4361eb23a8452616e923f2bf058768910bf2ff53280544b0955713073f4"
+    }
+  },
+  "decky": {
+    "version": "1.1.10",
+    "file": "decky/LimCore-decky.zip",
+    "size": 17462,
+    "sha256": "be247bd36b279cedeecc521b5139c9e728758f56bff6ea0b3ad088ffed75076b"
+  }
+}
